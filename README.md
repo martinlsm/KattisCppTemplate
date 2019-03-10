@@ -4,6 +4,10 @@ Then `make` the project and execute `./run_test`. All test cases will be run and
 
 It is also possible to try the algorithm from _stdin_ by running `./main_stdin` instead.
 
+## Writing the algorithm
+The `solve` method in `solution.cc` is what is called when executing the algorithm.
+Modify this method body to you liking until all your tests pass.
+
 ## Producing a submission
 I've added a small _Python-script_ called `gen_submission.py` to be run in order to submit a solution.
 It is rather untested, but works by merging `solution.h`, `solution.cc` and `main_stdin.cc` into a single C++ file.
